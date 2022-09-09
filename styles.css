@@ -1,0 +1,114 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #fff;
+    font-family: sourceProLight;
+}
+
+.main{
+    width: 375px;
+    height: auto;
+    margin: 0 auto;
+    border: rgb(137, 137, 204) solid 4px;
+    border-radius: 9px;
+}
+
+header{
+    background-color: #fff;
+    padding: 0 9px;
+}
+
+header, section{
+    border-bottom: rgb(146, 140, 140) solid 1px;
+}
+
+#logo{
+    width: 127px;
+    height: 60px
+}
+
+#userAvatar{
+    position: relative;
+    left: 180px;
+    height: 40px;
+    border-radius: 50%;
+    border: white 3px solid;
+    margin-right: 5px;
+}
+
+.userWrapper{
+    display: flex;
+}
+
+.avatar{
+    height: 50px;
+    border-radius: 50%;
+    margin: 10px 6px;
+}
+
+.location,
+.courbet,
+.vangogh{
+    position: relative;
+    top: 24px;
+}
+
+.location{
+    right: 132px;
+}
+
+.courbet{
+    right: 136px;
+}
+
+.vangogh{
+    right: 142px;
+}
+
+h3{
+    margin-top: 15px;
+    font-family: sourceProBold;
+}
+
+.post{
+    width: 375px;
+    height: 375px;
+}
+
+.smallIcons{
+    width: 25px;
+    margin: 10px 5px;
+}
+
+.likes{
+    margin: 0 10px;
+    font-family: sourceProBold;
+}
+
+.tags{
+    margin: 10px;
+}
+
+.smallIcons:hover,
+.smallIcons:focus{
+    opacity: 0.4;
+}
+
+.active{
+    background-color: red;
+    border-radius: 10px;
+}
+
+@font-face {
+    font-family: sourceProLight;
+    src: url(source-sans-pro.light.ttf.otf);
+}
+
+@font-face {
+    font-family: sourceProBold;
+    src: url(source-sans-pro.bold.ttf.otf);
+}
+
+span{
+    font-family: sourceProBold;
+}
